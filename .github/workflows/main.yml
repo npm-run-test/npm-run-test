@@ -7,16 +7,16 @@ on:
 
 jobs:
   build:
-    name: Update this repo's README with recent activity
+    name: Update this repo s README with recent activity
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
       - uses: actions/checkout@v3
-      - uses: jamesgeorge007/github-activity-readme@master
+      - uses: Lissy93/github-activity-readme@master
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         with:
           COMMIT_MSG: "UPDATED README USING GH ACTIONS"
           MAX_LINES: 10
