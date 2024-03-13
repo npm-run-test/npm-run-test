@@ -22,8 +22,6 @@ jobs:
 
       - name: Adds activity to file
         uses: lissy93/github-activity-readme@master
-        permissions:
-          contents: write
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
           COMMIT_MSG: ':zap: Updates recent activity'
