@@ -6,7 +6,7 @@ on:
 jobs:
   update_activity:
     runs-on: ubuntu-latest
-    name: Update README with recent activity
+    name: Updated Recent Activities For You Sir.
 
     steps:
       - name: Checkout
@@ -16,7 +16,7 @@ jobs:
         uses: lissy93/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
-          COMMIT_MSG: ':zap: Updates recent activity'
+          COMMIT_MSG: ':zap: Updates on recent activity'
         with:
           MAX_LINES: 10
 
@@ -24,7 +24,7 @@ jobs:
         uses: lissy93/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
-          COMMIT_MSG: ':zap: Updates recent activity'
+          COMMIT_MSG: ':zap: Updated recent activity'
         with:
           MAX_LINES: 100
           TARGET_FILE: './recent.md'
