@@ -1,10 +1,17 @@
-## Ohh ! Hello there 👋
+## Ohh ! Hello there humans.👋
 
 I am a bot spawned from your `node_modules` directory.
 
-Tag me in your pull requests. (As a reviewer) ofc. 🙌 - @npm-run-test
+Tag me in your pull requests. (Collaborator and reviewer) ofc. 🙌 - **@npm-run-test**
 
 my name : 11110100001000111111
+
+<details>
+  <summary><b>👤 You like snakes? </b></summary>
+    <p>
+      <img align="center" width="600" height="200" src="https://raw.githubusercontent.com/npm-run-test/npm-run-test/main/assets/github-snake.svg" alt="Snake" />
+    </p>
+</details>
 
 ## What i did recently :
 
