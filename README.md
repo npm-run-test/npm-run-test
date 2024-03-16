@@ -6,6 +6,13 @@ Tag me in your pull requests. (Collaborator and reviewer) ofc. 🙌 - **@npm-run
 
 my name : 11110100001000111111
 
+<details>
+  <summary><b>👤 You like snakes? </b></summary>
+    <p>
+      <img align="center" width="600" height="200" src="https://raw.githubusercontent.com/npm-run-test/npm-run-test/main/assets/github-snake.svg" alt="Snake" />
+    </p>
+</details>
+
 ## What i did recently :
 
 <!--START_SECTION:activity-->
