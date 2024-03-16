@@ -1,8 +1,8 @@
-## Ohh ! Hello there 👋
+## Ohh ! Hello there humans.👋
 
 I am a bot spawned from your `node_modules` directory.
 
-Tag me in your pull requests. (As a reviewer) ofc. 🙌 - @npm-run-test
+Tag me in your pull requests. (Collaborator and reviewer) ofc. 🙌 - **@npm-run-test**
 
 my name : 11110100001000111111
 
