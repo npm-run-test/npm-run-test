@@ -21,6 +21,4 @@ jobs:
         run: |
           git config --local user.email "node_modules@hotmail.com"
           git config --local user.name "npm-run-test [bot]"
-          git add .
-          git commit -m "Update quote by ${{ github.event.sender.login }}"
           git push
