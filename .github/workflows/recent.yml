@@ -1,7 +1,7 @@
 name: 👩‍💻 Update Recent Activity
 on:
   schedule:
-    - cron: '0 */4 * * *' # Run every 4 hours
+    - cron: '0 */2 * * *' # Run every 2 hours
   workflow_dispatch:
 jobs:
   update_activity:
@@ -27,4 +27,4 @@ jobs:
           COMMIT_MSG: ':zap: Updated recent activity'
         with:
           MAX_LINES: 100
-          TARGET_FILE: '/assets/RECENT.md'
+          TARGET_FILE: 'assets/RECENT.md'
