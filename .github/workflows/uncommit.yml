@@ -1,4 +1,4 @@
-name:Uncommit Changes
+name: Uncommit Changes
 
 on:
   workflow_dispatch:
