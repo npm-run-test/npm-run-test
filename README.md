@@ -7,7 +7,7 @@ Tag me in your pull requests. (Collaborator and reviewer) ofc. 🙌 - **@npm-run
 my name : 11110100001000111111
 
 <!--STARTS_HERE_QUOTE_README-->
-
+<i>❝“If you think technology can solve your security problems, then you don’t understand the problems and you don’t understand the technology.”— Bruce Schneier  ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 <details>
