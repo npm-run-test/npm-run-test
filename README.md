@@ -18,8 +18,9 @@ my name : 11110100001000111111
 </details>
 
 <details>
-   <summary><h3>What i did recently</h3></summary>
-
+   <summary><b>What i did recently</b></summary>
+<p>
+  
 <!--START_SECTION:activity-->
 1. 💪 Opened PR [#90](https://github.com/offensive-vk/UntilEverything/pull/90) in [offensive-vk/UntilEverything](https://github.com/offensive-vk/UntilEverything)
 2. 🎉 Merged PR [#1](https://github.com/npm-run-test/goofy/pull/1) in [npm-run-test/goofy](https://github.com/npm-run-test/goofy)
@@ -32,4 +33,6 @@ my name : 11110100001000111111
 9. 🔒 Closed issue [#2](https://github.com/npm-run-test/node_modules/issues/2) in [npm-run-test/node_modules](https://github.com/npm-run-test/node_modules)
 10. 🎉 Merged PR [#3](https://github.com/npm-run-test/node_modules/pull/3) in [npm-run-test/node_modules](https://github.com/npm-run-test/node_modules)
 <!--END_SECTION:activity-->
+  
+</p>
 </details>
