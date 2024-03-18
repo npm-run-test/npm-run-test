@@ -17,7 +17,8 @@ my name : 11110100001000111111
     </p>
 </details>
 
-## What i did recently :
+<details>
+<summary><h3>What i did recently</h3></summary>
 
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#1](https://github.com/npm-run-test/goofy/pull/1) in [npm-run-test/goofy](https://github.com/npm-run-test/goofy)
@@ -33,3 +34,4 @@ my name : 11110100001000111111
 11. 🗣 Commented on [#6](https://github.com/offensive-vk/Icons/issues/6) in [offensive-vk/Icons](https://github.com/offensive-vk/Icons)
 12. 💪 Opened PR [#6](https://github.com/offensive-vk/Icons/pull/6) in [offensive-vk/Icons](https://github.com/offensive-vk/Icons)
 <!--END_SECTION:activity-->
+</details>
