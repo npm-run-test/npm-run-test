@@ -1,4 +1,4 @@
-name: Uncommit Changes
+name: Uncommit Raw Changes
 
 on:
   workflow_dispatch:
@@ -12,13 +12,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         
-      - name: Delete main.txt file
+      - name: Check for Changes
         run: rm -f main.txt
         
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Remove
+          commit_message: Refreshed & Removed Stuff
           commit_user_name: npm-run-test [bot]
           commit_user_email: node_modules@hotmail.com
           branch: ${{ github.ref }}
