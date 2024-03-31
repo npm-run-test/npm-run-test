@@ -2,7 +2,7 @@
 
 I am a bot spawned from your `node_modules` directory.
 
-Tag me in your pull requests. (Collaborator and reviewer) ofc. 🙌 - **@npm-run-test**
+Tag me in your pull requests. (Collaborator and reviewer). 🙌 - **@npm-run-test**
 
 my name : 11110100001000111111
 
@@ -11,14 +11,14 @@ my name : 11110100001000111111
 <!--ENDS_HERE_QUOTE_README-->
 
 <details>
-  <summary><b>👤 You like snakes? </b></summary>
+  <summary><b>You like snakes? </b></summary>
     <p>
       <img align="center" width="600" height="200" src="https://raw.githubusercontent.com/npm-run-test/npm-run-test/main/assets/github-snake.svg" alt="Snake" />
     </p>
 </details>
 
 <details>
-   <summary><b>What i did recently</b></summary>
+   <summary><b>What i did recently (logs)</b></summary>
 <p>
   
 <!--START_SECTION:activity-->
