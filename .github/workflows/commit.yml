@@ -1,4 +1,4 @@
-name: Commit Something
+name: Refresh the Changes
 
 on:
   workflow_dispatch:
