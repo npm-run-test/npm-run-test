@@ -15,10 +15,10 @@ jobs:
       - name: Create main.txt file
         run: echo "Hello world" > main.txt
         
-      - name: Commit and push changes
+      - name: Check for Changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Assign
+          commit_message: Changes Reflected
           commit_user_name: npm-run-test [bot]
           commit_user_email: node_modules@hotmail.com
           branch: ${{ github.ref }}
