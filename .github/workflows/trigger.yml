@@ -19,7 +19,6 @@ jobs:
       - name: Install Github Cli
         run: |
           sudo apt install gh -y
-          sudo apt install github-cli
           
       # Step 2: Run each workflow found in the previous step
       - name: Run each workflow
