@@ -1,10 +1,11 @@
-name: Run All Workflows
+name: ☠️ Start all Operations
 
 # Trigger the workflow when a push event occurs on the master branch
 on:
+  workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   run-all-workflows:
