@@ -1,12 +1,12 @@
 name: 👩‍💻 Update Recent Activity
 on:
   schedule:
-    - cron: '0 */2 * * *' # Run every 2 hours
+    - cron: '0 */6 * * *' # Run every 2 hours
   workflow_dispatch:
 jobs:
   update_activity:
     runs-on: ubuntu-latest
-    name: Updated Recent Activities For You Sir.
+    name: Updated Recent Activities
 
     steps:
       - name: Checkout

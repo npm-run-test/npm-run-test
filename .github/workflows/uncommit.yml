@@ -1,9 +1,10 @@
+########### SECURE CONTEXT START ##############
 name: Uncommit Raw Changes
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0 * * *'  # Runs daily at 12:10 AM IST
+    - cron: '15 0 * * *'  # Runs daily at 12:15 AM IST
 
 jobs:
   delete_file:
@@ -19,9 +20,11 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Refreshed & Removed Stuff
-          commit_user_name: npm-run-test [bot]
+          commit_user_name: npm-run-test
           commit_user_email: node_modules@hotmail.com
           branch: ${{ github.ref }}
           commit_options: '-a'
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
+
+########### SECURE CONTEXT END ##############
