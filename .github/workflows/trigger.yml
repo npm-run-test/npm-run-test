@@ -1,0 +1,27 @@
+name: Run All Workflows
+
+# Trigger the workflow when a push event occurs on the master branch
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  run-all-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Get the list of workflow files in the .github/workflows directory
+      - name: Get workflows
+        id: get_workflows
+        run: echo ::set-output name=workflows::$(find .github/workflows -name '*.yml' -exec basename {} \;)
+
+      # Step 2: Run each workflow found in the previous step
+      - name: Run each workflow
+        run: |
+          # Loop through each workflow and trigger its execution using the GitHub CLI
+          for workflow in ${{ steps.get_workflows.outputs.workflows }}; do
+            echo "Running workflow: $workflow"
+            # Trigger the workflow using the GitHub CLI (`gh workflow run`)
+            # The `--ref master` option specifies that the workflow should be triggered on the master branch
+            gh workflow run "$workflow" --ref master
+          done
