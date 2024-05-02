@@ -7,7 +7,7 @@ on:
     - cron: '15 0 * * *'  # Runs daily at 12:15 AM IST
 
 jobs:
-  delete_file:
+  processing_end:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
