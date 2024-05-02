@@ -7,7 +7,7 @@ on:
     - cron: '10 0 * * *'  # Runs daily at 12:10 AM IST
 
 jobs:
-  create_file:
+  processing_begin:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
