@@ -1,11 +1,9 @@
 name: Generate Animation
 
 on:
+  schedule:
+   - cron: "0 */8 * * *" 
   workflow_dispatch:
-  - cron: "0 */8 * * *" 
-  push:
-    branches:
-    - main
   
 jobs:
   generate:
