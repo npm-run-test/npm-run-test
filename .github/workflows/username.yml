@@ -1,22 +1,15 @@
 name: Generate Animation
 
 on:
-  # run automatically every 6 hours
-  # schedule:
-  #   - cron: "0 */8 * * *" 
-  
-  # allows to manually run the job at any time
   workflow_dispatch:
-  # run on every push on the master branch
+  - cron: "0 */8 * * *" 
   push:
     branches:
     - main
-    
   
-
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     timeout-minutes: 10
     
     steps:
@@ -24,17 +17,15 @@ jobs:
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v2
         with:
-          github_user_name: offensive-vk
+          github_user_name: npm-run-test
           outputs: |
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
-          target_branch: output
+          target_branch: main
           build_dir: assets
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
