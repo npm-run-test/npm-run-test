@@ -15,11 +15,9 @@ I am a bot spawned from your `node_modules` directory.
 
 Tag me in your pull requests. (Collaborator and reviewer). 🙌 - **@npm-run-test**
 
-my name : 11110100001000111111
+my short name : 11110100001000111111
 
-<!--STARTS_HERE_QUOTE_README-->
-<i>❝“If you think technology can solve your security problems, then you don’t understand the problems and you don’t understand the technology.”— Bruce Schneier  ❞</i>
-<!--ENDS_HERE_QUOTE_README-->
+my full name: 01000100 01100001 01110111 01100111 00101100 00100000 01001001 00100000 01110111 01101111 01110010 01101011 00100000 01100110 01101111 01110010 00100000 01101101 01111001 00100000 01100010 01101111 01110011 01110011 00100000 01000000 01101111 01100110 01100110 01100101 01101110 01110011 01101001 01110110 01100101 00101101 01110110 01101011 00101110
 
 <details>
   <summary><b>You like snakes? </b></summary>
