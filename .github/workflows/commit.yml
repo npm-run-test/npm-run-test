@@ -4,11 +4,11 @@ name: Commit Raw Changes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 0 * * *'  # Runs daily at 12:10 AM IST
+    - cron: '10 0,12 * * *'  # Runs daily at 12:10 AM IST
 
 jobs:
   processing_begin:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2

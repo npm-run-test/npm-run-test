@@ -4,11 +4,11 @@ name: Uncommit Raw Changes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0 * * *'  # Runs daily at 12:15 AM IST
+    - cron: '15 0,12 * * *'  # Runs daily at 12:15 AM IST
 
 jobs:
   processing_end:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
