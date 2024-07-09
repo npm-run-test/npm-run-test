@@ -11,8 +11,7 @@ jobs:
   automated:
     runs-on: ubuntu-latest
     steps:
-
-      - name: Run the Automated PR
+      name: Run the Automated PR
       uses: devops-infra/action-pull-request@v0.5.5
       with:
         github_token: ${{ secrets.BOT_GH_TOKEN }}
