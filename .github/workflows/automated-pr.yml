@@ -1,6 +1,5 @@
-name: Automated PR Bot
+name: Automated PR Manager
 
-# run this workflow only on new feature branches, not when they're merged to main
 on:
   push:
     branches-ignore:
@@ -14,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Create pull request
+      - name: Create or Open A PR
         id: open-pr
         uses: repo-sync/pull-request@v2
         with:
           destination_branch: "main"
-          pr_title: "Automated PR by @npm-run-test"
+          pr_title: "[Bot] Automated Pull Request by [@npm-run-test]."
           pr_template: ""
           pr_reviewer: "npm-run-test"
           pr_draft: false
