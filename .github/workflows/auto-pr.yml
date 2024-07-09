@@ -20,7 +20,7 @@ jobs:
         uses: devops-infra/action-pull-request@v0.5.5
         with:
           github_token: ${{ secrets.BOT_GH_TOKEN }}
-          source_branch: "*"
+          source_branch: feature-*  # Replace with your actual source branch name
           target_branch: main
           title: Auto PR
           body: "This PR was automated by @npm-run-test."
@@ -33,4 +33,3 @@ jobs:
           get_diff: true
           ignore_users: "dependabot"
           allow_no_diff: false
-
