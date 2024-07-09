@@ -1,11 +1,12 @@
 name: Auto PR Bot Manager
 
 on:
-  workflow_dispatch:
-    - cron: "0 */2 * * *"
   push:
     branches-ignore: ["main", "master"]
     branches: ["*"]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */2 * * *'
 
 jobs:
   automated:
