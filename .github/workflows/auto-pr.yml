@@ -1,0 +1,33 @@
+name: Auto PR Bot Manager
+
+on:
+  workflow_dispatch:
+    - cron: "0 */2 * * *"
+  push:
+    branches-ignore: ["main", "master"]
+    branches: ["*"]
+
+jobs:
+  automated:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Run the Automated PR
+      uses: devops-infra/action-pull-request@v0.5.5
+      with:
+        github_token: ${{ secrets.BOT_GH_TOKEN }}
+        source_branch: "*"
+        target_branch: main
+        title: Auto PR
+        template: ""
+        body: "This PR was automated by @npm-run-test."
+        reviewer: npm-run-test
+        assignee: octocat
+        label: enhancement
+        milestone: 
+        draft: false
+        old_string: "<!-- UNDEFINED -->"
+        new_string: "** Automatic pull request**"
+        get_diff: true
+        ignore_users: "dependabot"
+        allow_no_diff: false
