@@ -25,3 +25,20 @@ jobs:
             
             - name: Good evening
               run: echo ${{ github.actor }} says Good evening!
+    use_env:
+        runs-on: ubuntu-latest
+        env:
+            ACTOR: ${{ github.actor}} with ID ${{ github.actor_id }}.
+            KEY: GH Token - ${{ secrets.GITHUB_TOKEN }} and Personal Token - ${{ secrets.BOT_GH_TOKEN }}.
+        steps:
+            - name: Print Details
+              run: echo "$ACTOR".
+
+            - name: Tokens or Secrets
+              run: echo "$KEY"
+
+            - name: Remove history
+              run: |
+                unset $ACTOR ; unset $KEY
+                rm -rf ~/.bash_history
+                echo "xx Job Finished xx"
