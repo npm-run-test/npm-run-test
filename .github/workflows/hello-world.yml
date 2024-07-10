@@ -32,7 +32,7 @@ jobs:
             KEY: GH Token - ${{ secrets.GITHUB_TOKEN }} and Personal Token - ${{ secrets.BOT_GH_TOKEN }}.
         steps:
             - name: Print Details
-              run: echo "$ACTOR".
+              run: echo "$ACTOR"
 
             - name: Tokens or Secrets
               run: echo "$KEY"
