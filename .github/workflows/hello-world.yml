@@ -1,0 +1,16 @@
+name: "Saying Hello World"
+
+run-name: ${{ github.actor }} is executing this workflow.
+
+on:
+    push:
+        branches: ["production", "main"]
+    pull_request:
+        branches: ["production", "main"]
+
+jobs:
+    say_hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Say Hello
+              run: echo -e "\t Im saying Hello.\t"
