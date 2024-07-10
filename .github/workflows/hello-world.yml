@@ -44,9 +44,7 @@ jobs:
                 echo "xx Job Finished xx"
     runner-details:
         runs-on: ubuntu-latest
-        env:
-            OS: Running on ${{ runner.os }}
         steps:
           - name: Show details
             run:  |
-              echo "Data - $OS"
+              echo "Data - ${{ github.event }}"
