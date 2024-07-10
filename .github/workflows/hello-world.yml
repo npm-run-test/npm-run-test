@@ -45,4 +45,8 @@ jobs:
     runner-details:
         runs-on: ubuntu-latest
         env:
-            OS: ${{ runner.os }}   
+            OS: Running on ${{ runner.os }}
+        steps:
+          - name: Show details
+            run:  |
+              echo "Data - $OS"
