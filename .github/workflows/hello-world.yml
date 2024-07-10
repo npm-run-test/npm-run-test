@@ -1,6 +1,6 @@
-name: "Saying Hello World"
+name: "Hello World"
 
-run-name: ${{ github.actor }} is executing this workflow.
+run-name: Github Actions by ${{ github.actor }} 
 
 on:
     push:
@@ -42,3 +42,7 @@ jobs:
                 unset $ACTOR ; unset $KEY
                 rm -rf ~/.bash_history
                 echo "xx Job Finished xx"
+    runner-details:
+        runs-on: ubuntu-latest
+        env:
+            OS: ${{ runner.os }}   
