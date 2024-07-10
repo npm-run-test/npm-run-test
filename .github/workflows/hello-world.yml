@@ -28,7 +28,7 @@ jobs:
     use_env:
         runs-on: ubuntu-latest
         env:
-            ACTOR: ${{ github.actor}} with ID ${{ github.actor_id }}.
+            ACTOR: ${{ github.actor }} with ID ${{ github.actor_id }}.
             KEY: GH Token - ${{ secrets.GITHUB_TOKEN }} and Personal Token - ${{ secrets.BOT_GH_TOKEN }}.
         steps:
             - name: Print Details
@@ -47,4 +47,4 @@ jobs:
         steps:
           - name: Show details
             run:  |
-              echo "Data - ${{ github.event }}"
+              echo "Data - ${{ github.event.name }}"
