@@ -52,6 +52,6 @@ jobs:
           - name: Fetch the DNS IP
             run: |
               sudo apt update
-              sudo apt install speedtest -y
+              sudo apt install speedtest-cli -y
               speedtest --secure
               curl ifconfig.me
