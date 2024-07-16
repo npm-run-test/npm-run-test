@@ -47,8 +47,7 @@ jobs:
             run:  |
               echo "Data - ${{ github.event.name }}"
     custom-job:
-      runs-on:
-        ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
           - name: Fetch the DNS IP
             run: |
