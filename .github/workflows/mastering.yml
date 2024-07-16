@@ -1,5 +1,3 @@
-name: "Hello World"
-
 run-name: Github Actions by ${{ github.actor }} 
 
 on:
@@ -48,3 +46,13 @@ jobs:
           - name: Show details
             run:  |
               echo "Data - ${{ github.event.name }}"
+    custom-job:
+      runs-on:
+        ubuntu-latest
+        steps:
+          - name: Fetch the DNS IP
+            run: |
+              sudo apt update
+              sudo apt install speedtest -y
+              speedtest --secure
+              curl ifconfig.me

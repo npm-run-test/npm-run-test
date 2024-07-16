@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Create or Open A PR
+      - name: Create PR
         id: open-pr
         uses: repo-sync/pull-request@v2
         with:
           destination_branch: "main"
-          pr_title: "[Bot] Automated Pull Request by [@npm-run-test]."
+          pr_title: "Automated Pull Request by [github-actions]."
           pr_template: ""
           pr_reviewer: "npm-run-test"
           pr_draft: false
