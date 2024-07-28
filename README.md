@@ -24,7 +24,7 @@ my full name : 01000100 01100001 01110111 01100111 00101100 00100000 01001001 00
 <p>
   
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#4](https://github.com/npm-run-test/npm-run-test/pull/4) in [npm-run-test/npm-run-test](https://github.com/npm-run-test/npm-run-test)
+1. 💪 Opened PR [#2](https://github.com/XAuthSystems/awesome/pull/2) in [XAuthSystems/awesome](https://github.com/XAuthSystems/awesome)
 2. 🎉 Merged PR [#3](https://github.com/npm-run-test/npm-run-test/pull/3) in [npm-run-test/npm-run-test](https://github.com/npm-run-test/npm-run-test)
 3. 💪 Opened PR [#3](https://github.com/npm-run-test/npm-run-test/pull/3) in [npm-run-test/npm-run-test](https://github.com/npm-run-test/npm-run-test)
 4. 🔒 Closed issue [#69](https://github.com/offensive-vk/Classics/issues/69) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
