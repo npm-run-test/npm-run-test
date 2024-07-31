@@ -1,8 +1,8 @@
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#2](https://github.com/XAuthSystems/awesome/pull/2) in [XAuthSystems/awesome](https://github.com/XAuthSystems/awesome)
-2. 🎉 Merged PR [#3](https://github.com/npm-run-test/npm-run-test/pull/3) in [npm-run-test/npm-run-test](https://github.com/npm-run-test/npm-run-test)
-3. 💪 Opened PR [#3](https://github.com/npm-run-test/npm-run-test/pull/3) in [npm-run-test/npm-run-test](https://github.com/npm-run-test/npm-run-test)
-4. 🔒 Closed issue [#69](https://github.com/offensive-vk/Classics/issues/69) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+1. 🎉 Merged PR [#6](https://github.com/npm-run-test/npm-run-test/pull/6) in [npm-run-test/npm-run-test](https://github.com/npm-run-test/npm-run-test)
+2. ❌ Closed PR [#5](https://github.com/npm-run-test/npm-run-test/pull/5) in [npm-run-test/npm-run-test](https://github.com/npm-run-test/npm-run-test)
+3. 💪 Opened PR [#6](https://github.com/npm-run-test/npm-run-test/pull/6) in [npm-run-test/npm-run-test](https://github.com/npm-run-test/npm-run-test)
+4. 💪 Opened PR [#2](https://github.com/XAuthSystems/awesome/pull/2) in [XAuthSystems/awesome](https://github.com/XAuthSystems/awesome)
 5. 🔒 Closed issue [#67](https://github.com/offensive-vk/Classics/issues/67) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
 6. 🎉 Merged PR [#71](https://github.com/offensive-vk/Classics/pull/71) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
 7. 💪 Opened PR [#2](https://github.com/XAuthSystems/mongo/pull/2) in [XAuthSystems/mongo](https://github.com/XAuthSystems/mongo)
