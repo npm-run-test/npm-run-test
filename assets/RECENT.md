@@ -1,8 +1,8 @@
 <!--START_SECTION:activity-->
-1. 🚀 Published release [August 2024](https://github.com/August 2024) in [npm-run-test/static](https://github.com/npm-run-test/static)
-2. 🗣 Commented on [#1](https://github.com/doocs/doocs.github.io/issues/1) in [doocs/doocs.github.io](https://github.com/doocs/doocs.github.io)
-3. 💪 Opened PR [#3](https://github.com/XAuthSystems/mongo/pull/3) in [XAuthSystems/mongo](https://github.com/XAuthSystems/mongo)
-4. 💪 Opened PR [#5](https://github.com/XAuthSystems/cpython/pull/5) in [XAuthSystems/cpython](https://github.com/XAuthSystems/cpython)
+1. 💪 Opened PR [#3](https://github.com/XAuthSystems/docker-cli/pull/3) in [XAuthSystems/docker-cli](https://github.com/XAuthSystems/docker-cli)
+2. 💪 Opened PR [#1](https://github.com/XAuthSystems/node/pull/1) in [XAuthSystems/node](https://github.com/XAuthSystems/node)
+3. 🚀 Published release [August 2024](https://github.com/August 2024) in [npm-run-test/static](https://github.com/npm-run-test/static)
+4. 🗣 Commented on [#1](https://github.com/doocs/doocs.github.io/issues/1) in [doocs/doocs.github.io](https://github.com/doocs/doocs.github.io)
 5. 💪 Opened PR [#3](https://github.com/XAuthSystems/AFFiNE/pull/3) in [XAuthSystems/AFFiNE](https://github.com/XAuthSystems/AFFiNE)
 6. 💪 Opened PR [#5](https://github.com/XAuthSystems/TypeScript/pull/5) in [XAuthSystems/TypeScript](https://github.com/XAuthSystems/TypeScript)
 7. 💪 Opened PR [#6](https://github.com/XAuthSystems/vscode/pull/6) in [XAuthSystems/vscode](https://github.com/XAuthSystems/vscode)
