@@ -22,7 +22,7 @@
 <p>
   
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#3](https://github.com/XAuthSystems/docker-cli/pull/3) in [XAuthSystems/docker-cli](https://github.com/XAuthSystems/docker-cli)
+1. 💪 Opened PR [#62](https://github.com/offensive-vk/AwesomeScripts/pull/62) in [offensive-vk/AwesomeScripts](https://github.com/offensive-vk/AwesomeScripts)
 2. 💪 Opened PR [#1](https://github.com/XAuthSystems/node/pull/1) in [XAuthSystems/node](https://github.com/XAuthSystems/node)
 3. 🚀 Published release [August 2024](https://github.com/August 2024) in [npm-run-test/static](https://github.com/npm-run-test/static)
 4. 🗣 Commented on [#1](https://github.com/doocs/doocs.github.io/issues/1) in [doocs/doocs.github.io](https://github.com/doocs/doocs.github.io)
