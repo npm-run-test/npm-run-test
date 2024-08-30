@@ -15,7 +15,6 @@ jobs:
       - name: Setup Icon 
         uses: damienaicheh/icon-badge-action@v1.0.0
         with:
-          images-path: 'assets/icon.png'
-          
+          images-path: '/assets/icon.png'
       - name: Goodbye
         run: echo "Goodbye - Container"
