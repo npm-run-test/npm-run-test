@@ -1,4 +1,4 @@
-name: 👩‍💻 Update Recent Activity
+name: Update Recent Activity
 on:
   schedule:
     - cron: '0 */2 * * *' # Run every 6 hours
@@ -7,7 +7,6 @@ jobs:
   update_activity:
     runs-on: macos-latest
     name: Updated Recent Activities
-
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -16,7 +15,7 @@ jobs:
         uses: lissy93/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
-          COMMIT_MSG: ':zap: Updates on recent activity'
+          COMMIT_MSG: ':zap: Update Recent Activity'
         with:
           MAX_LINES: 10
 
@@ -24,7 +23,7 @@ jobs:
         uses: lissy93/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
-          COMMIT_MSG: ':zap: Updated recent activity'
+          COMMIT_MSG: ':zap: Update Recent Activity'
         with:
           MAX_LINES: 100
           TARGET_FILE: 'assets/RECENT.md'

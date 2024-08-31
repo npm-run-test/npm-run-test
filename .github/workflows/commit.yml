@@ -22,7 +22,7 @@ jobs:
           commit_message: Refreshed & Removed Stuff
           commit_user_name: npm-run-test
           commit_user_email: node_modules@hotmail.com
-          branch: ${{ github.ref }}
+          branch: committed
           commit_options: '-a'
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
