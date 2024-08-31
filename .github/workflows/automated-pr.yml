@@ -19,7 +19,7 @@ jobs:
         id: open-pr
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.BOT_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           author: "Hamster [bot] <node_modules@hotmail.com>"
           committer: "Hamster [bot] <node_modules@hotmail.com>"
           signoff: true
