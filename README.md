@@ -22,16 +22,16 @@
 <p>
   
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#110](https://github.com/offensive-vk/Classics/issues/110) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
-2. ❗ Opened issue [#109](https://github.com/offensive-vk/Classics/issues/109) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
-3. ❗ Opened issue [#108](https://github.com/offensive-vk/Classics/issues/108) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
-4. ❗ Opened issue [#107](https://github.com/offensive-vk/Classics/issues/107) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
-5. ❗ Opened issue [#200](https://github.com/offensive-vk/UntilEverything/issues/200) in [offensive-vk/UntilEverything](https://github.com/offensive-vk/UntilEverything)
-6. ❗ Opened issue [#106](https://github.com/offensive-vk/Classics/issues/106) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
-7. ❗ Opened issue [#197](https://github.com/offensive-vk/UntilEverything/issues/197) in [offensive-vk/UntilEverything](https://github.com/offensive-vk/UntilEverything)
-8. 🔒 Closed issue [#43](https://github.com/offensive-vk/AwesomeTesting/issues/43) in [offensive-vk/AwesomeTesting](https://github.com/offensive-vk/AwesomeTesting)
-9. 🔒 Closed issue [#42](https://github.com/offensive-vk/AwesomeTesting/issues/42) in [offensive-vk/AwesomeTesting](https://github.com/offensive-vk/AwesomeTesting)
-10. 🔒 Closed issue [#41](https://github.com/offensive-vk/AwesomeTesting/issues/41) in [offensive-vk/AwesomeTesting](https://github.com/offensive-vk/AwesomeTesting)
+1. ❗ Opened issue [#119](https://github.com/offensive-vk/Classics/issues/119) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+2. ❗ Opened issue [#118](https://github.com/offensive-vk/Classics/issues/118) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+3. ❌ Closed PR [#117](https://github.com/offensive-vk/Classics/pull/117) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+4. ❗ Opened issue [#116](https://github.com/offensive-vk/Classics/issues/116) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+5. ❗ Opened issue [#115](https://github.com/offensive-vk/Classics/issues/115) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+6. ❗ Opened issue [#114](https://github.com/offensive-vk/Classics/issues/114) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+7. ❗ Opened issue [#113](https://github.com/offensive-vk/Classics/issues/113) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+8. ❗ Opened issue [#111](https://github.com/offensive-vk/Classics/issues/111) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+9. ❗ Opened issue [#110](https://github.com/offensive-vk/Classics/issues/110) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
+10. ❗ Opened issue [#109](https://github.com/offensive-vk/Classics/issues/109) in [offensive-vk/Classics](https://github.com/offensive-vk/Classics)
 <!--END_SECTION:activity-->
   
 </p>
