@@ -5,6 +5,7 @@ on:
     branches-ignore: [ "main" ]
   schedule:
     - cron: '0 */1 * * *'
+  workflow_dispatch:
 jobs:
   pr_job:
     runs-on: ubuntu-latest
